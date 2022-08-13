@@ -8,7 +8,7 @@
 
 /*1a: All inclusive */
 body {
-    background-color: #1B2F33;
+    background-color: white;
     color: slategray;
 }
 div {
@@ -19,6 +19,10 @@ div {
     margin: 20px;
     display: inline-block;
     color: slategray;
+}
+#navigation li {
+    display: inline;
+    margin: 20px;
 }
 
 /* 2a. Major parts of the page */
