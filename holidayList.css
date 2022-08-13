@@ -1,4 +1,69 @@
+/* Categories:  (a: index.html related)
+    1a. All inclusive 
+    2a. Major parts of the page 
+    3a: Quick View of groups
+    4a: Quick View of Favorites
+*/
+
+
+/*1a: All inclusive */
+body {
+    background-color: #1B2F33;
+    color: slategray;
+}
 div {
     border: 1px solid black;
     font-size: large;
+    width: 300px;
+    padding: 25px;
+    margin: 20px;
+    display: inline-block;
+    color: slategray;
 }
+
+/* 2a. Major parts of the page */
+
+.search {
+    border: 1px solid black;
+    width: 500px;
+    text-align: center;
+    margin-left: 430px;
+    padding: 15px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color: #9AADBF;
+    color: #5A2328;
+}
+.carousel {
+    border: 1px solid black;
+    width: 500px;
+    text-align: center;
+    margin-left: 325px;
+    padding: 105px;
+    margin-bottom: 50px;
+    margin-top: 150px;
+    border-radius: 5px;
+    background-color: #9AADBF;
+    color: #5A2328;
+}
+
+
+h3 {
+    text-align: center;
+}
+ls {
+    display: block;
+    margin: 20px;
+}
+
+
+/* 3a. Quick View of groups */
+.groupList {
+    margin-right: 600px;
+    background-color: 9AADBF;
+}
+
+
+/* 4a. Quick View of Favorites */
+
+
