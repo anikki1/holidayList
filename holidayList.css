@@ -8,7 +8,7 @@
 
 /*1a: All inclusive */
 body {
-    background-color: white;
+    background-color: #76877D;
     color: slategray;
 }
 div {
@@ -26,6 +26,8 @@ div {
     text-align: center;
     border: #5A2328 solid 1px;
     border-radius: 5px;
+    padding: 5px;
+    
 }
 
 /* 2a. Major parts of the page */
@@ -35,11 +37,12 @@ div {
     width: 500px;
     text-align: center;
     margin-left: 430px;
-    padding: 15px;
+    padding: 25px;
     margin-bottom: 50px;
     border-radius: 5px;
-    background-color: #9AADBF;
-    color: #5A2328;
+    margin-right: 600px;
+    background-color: #087E8B;
+    color: #01172F;
 }
 .carousel {
     border: 1px solid black;
@@ -50,8 +53,9 @@ div {
     margin-bottom: 50px;
     margin-top: 150px;
     border-radius: 5px;
-    background-color: #9AADBF;
-    color: #5A2328;
+    background-color: #087E8B;
+    color: #01172F;
+    font-size: 35px;
 }
 
 
@@ -67,10 +71,24 @@ ls {
 /* 3a. Quick View of groups */
 .groupList {
     margin-right: 600px;
-    background-color: 9AADBF;
+    background-color: #087E8B;
+    color: #01172F;
 }
 
 
 /* 4a. Quick View of Favorites */
 
+.favorites {
+    margin-right: 600px;
+    background-color: #087E8B;
+    color: #01172F;
+}
 
+.groups {
+    background-color: #087E8B;
+    color: #01172F;
+}
+article {
+    color: #01172F;
+    font-size: larger;
+}
