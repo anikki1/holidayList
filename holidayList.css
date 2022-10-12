@@ -22,8 +22,10 @@ div {
 }
 #navigation li {
     display: inline;
-    margin: 20px;
+    margin: 30px;
     text-align: center;
+    border: #5A2328 solid 1px;
+    border-radius: 5px;
 }
 
 /* 2a. Major parts of the page */
