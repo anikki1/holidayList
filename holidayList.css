@@ -23,6 +23,7 @@ div {
 #navigation li {
     display: inline;
     margin: 20px;
+    text-align: center;
 }
 
 /* 2a. Major parts of the page */
