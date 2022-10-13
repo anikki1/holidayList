@@ -56,7 +56,7 @@ div {
 }
 .carousel {
     border: 1px solid black;
-    width: 500px;
+    width: auto;
     text-align: center;
     margin-left: 325px;
     padding: 105px;
@@ -68,6 +68,15 @@ div {
     font-size: 35px;
 }
 
+.carouselPic {
+    width: 400px;
+    height: 400px;
+    
+}
+
+a:visited {
+    color: black;
+}
 
 h3 {
     text-align: center;
@@ -75,6 +84,11 @@ h3 {
 ls {
     display: block;
     margin: 20px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
 }
 
 
@@ -102,3 +116,4 @@ article {
     color: #01172F;
     font-size: larger;
 }
+
