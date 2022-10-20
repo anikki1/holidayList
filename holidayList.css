@@ -18,7 +18,8 @@ h1 {
     font-size: 90px;
     color: burlywood;
     text-align: center;
-    padding: 20px;
+    padding: 50px;
+    margin-top: 65px;
 }
 div {
     border: 1px solid black;
@@ -71,7 +72,6 @@ div {
 .carouselPic {
     width: 400px;
     height: 400px;
-    
 }
 
 a:visited {
@@ -89,7 +89,15 @@ ls {
 button {
     padding: 10px;
     border-radius: 10px;
+    height: 45px;
 }
+
+.flexContainer {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 
 /* 3a. Quick View of groups */
