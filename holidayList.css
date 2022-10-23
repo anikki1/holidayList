@@ -57,21 +57,27 @@ div {
 }
 .carousel {
     border: 1px solid black;
-    width: auto;
+    width: 450px;
+    height: 450px;
     text-align: center;
     margin-left: 325px;
-    padding: 105px;
+    padding: 115px;
     margin-bottom: 50px;
     margin-top: 150px;
     border-radius: 5px;
     background-color: #087E8B;
     color: #01172F;
     font-size: 35px;
+    position: relative;
+    overflow: hidden;
 }
 
 .carouselPic {
     width: 400px;
     height: 400px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
 a:visited {
