@@ -88,14 +88,15 @@ ls {
 
 button {
     padding: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
     border-radius: 10px;
     height: 45px;
 }
 
 .flexContainer {
-    display: flexbox;
-    flex-direction: column;
-    justify-content: center;
+    display: contents;
+    justify-items: center;
 }
 
 
