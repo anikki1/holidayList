@@ -46,10 +46,8 @@ function showCarousel (right) {
         imgArray[imageIndex].style = 'left: 800px'
         imageIndex+= (right ? 1 : -1)
         let currentLeft = 10
-        
         imgArray[imageIndex].style = `left: ${currentLeft}`
         
-       
 }
 
 
